@@ -1,1 +1,54 @@
+@font-face {
+    src: url(../font/lucky.ttf);
+    font-family: gfont;
+}
+*{
+    box-sizing: border-box;
+    font-family: gfont;
 
+}
+div.main{
+    background-color: #33aa33;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+header.score{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 2.5em;
+    background-color: aquamarine;
+}
+div.scr, div#name{
+    flex-grow: 3;
+}
+div.icon{
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: #33aa33;
+}
+aside.high_score{
+    display: flex;
+}
+div#hg_names{
+    display: grid;
+    gap: 10px;
+    margin: 0 35px 0 5px;
+}
+div#hg_scores{
+    display: grid;
+    gap: 10px;
+    margin: 0 35px 0 5px;
+}
+article{
+    display: flex;
+    flex-grow: 1;
+}
+div#game_view{
+    background-color: black;
+    flex-grow: 1;
+
+}
